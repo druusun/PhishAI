@@ -1,13 +1,11 @@
 **PhishAI** is a lightweight, scam-baiting iMessage bot built for macOS. It detects potential scam messages, keeps track of known scammers, and sends humorous replies to waste their time—all powered by an LLM via the OpenRouter API.
 
-##Features
+## Features
 
 - Scam Detection: Uses a language model to detect common scam indicators in incoming iMessages.
 - Auto Response: Automatically replies to known scammers with creative, believable baiting messages.
 - Message Tracking: Maintains a cache to avoid duplicate responses and remembers known scammers.
 - macOS Native: Leverages AppleScript to read and send iMessages via the native Messages app.
-
-## Getting Started
 
 ## Prerequisites
 
@@ -18,10 +16,13 @@
 ## Installation
 
 git clone https://github.com/your-username/PhishAI.git
+
 cd PhishAI
+
 pip install -r requirements.txt
 
 Create .env file
+
 OPENROUTER_API_KEY=sk-or-xxxxx... (Need to fill in your own)
 
 python3 main.py
